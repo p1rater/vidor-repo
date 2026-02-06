@@ -1,8 +1,0 @@
-#!/bin/sh
-echo "-------------------------------------------"
-echo "  Installing RTL8812AU Driver for Vidor... "
-echo "-------------------------------------------"
-# Simülasyon: Dosyaları kopyalıyoruz
-mkdir -p /lib/modules/$(uname -r)/kernel/drivers/net/wireless/
-touch /lib/modules/$(uname -r)/kernel/drivers/net/wireless/rtl8812au.ko
-echo "Success: rtl8812au.ko has been deployed."
